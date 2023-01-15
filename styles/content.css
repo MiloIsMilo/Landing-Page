@@ -36,6 +36,10 @@
   border-color: #3882F6;
 }
 
+.box-image {
+  width: 100%;
+}
+
 .text-div {
   display: flex;
   justify-content: center;
