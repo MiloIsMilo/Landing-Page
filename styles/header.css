@@ -1,18 +1,26 @@
 .header {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  height: 400px;
+  display: flex;
   background-color: #1F2937;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-bottom: 80px;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 2;
+}
+
+.middle {
+  flex: 3;
 }
 
 .top-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .top-left-header {
@@ -27,11 +35,67 @@
 
 .top-right-header {
   display: flex;
-
 }
 
 .link {
   font-size: 18px;
   color: #E5E7EB;
-  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  vertical-align: top;
+}
+
+.bottom-left-header {
+  flex: 1;
+}
+
+.website-title {
+  width: 350px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  margin-bottom: 10px;
+}
+
+.about-website-text {
+  width: 400px;
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 15px;
+}
+
+.sign-up-button {
+  font-size: 16px;
+  color: white;
+  background-color: #3882F6;
+  border: none;
+  padding-top: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 7px;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+}
+
+.sign-up-button:hover {
+  opacity: 0.8;
+}
+
+.sign-up-button:active {
+  opacity: 0.6;
+}
+
+.bottom-right-header {
+  flex: 1;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%; 
+  background-color: grey;
 }
